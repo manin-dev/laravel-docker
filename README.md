@@ -93,5 +93,5 @@
     -  `docker-compose exec  db sh`
     -  `mysql -u root -p`
     -  `SHOW DATABASES;`
-    -  `GRANT ALL ON laravel11.* TO 'laravel11'@'%' IDENTIFIED BY 'laravel11';`
-    -  `GRANT ALL ON laravel11.* TO 'laravel11'@'%'`
+    -  CREATE USER 'laravel11'@'%' IDENTIFIED BY 'laravel11';
+    -  GRANT ALL ON laravel11.* TO 'laravel11'@'%';
